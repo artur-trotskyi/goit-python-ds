@@ -40,6 +40,8 @@
   переглянути логи контейнера.
 - Для виходу з контейнера використовуйте команду `exit`.
 - Для зупинки контейнеру `docker stop trotskyi-goit-ds-container`
+- Для запуску контейнеру `docker start trotskyi-goit-ds-container`
+- Зайти в термінал контейнеру `docker exec -it trotskyi-goit-ds-container bash`
 - Для видалення контейнеру `docker rm trotskyi-goit-ds-container`
 - Для видалення образу `docker rmi trotskyi/goit-ds`
 - Показати всі контейнери `docker ps -a`
