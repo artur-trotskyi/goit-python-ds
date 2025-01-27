@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-ds-hw-02"
+version = "0.1.0"
+description = "GoIT, Homework #2, Task Manager"
+authors = ["artur.trotskyi <artur.trotskyi@ukr.net>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "task_manager" }]
+
+[tool.poetry.dependencies]
+python = "3.12.8"
+faker = "^35.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
