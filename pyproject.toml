@@ -14,6 +14,7 @@ lxml = "^5.3.0"
 sqlalchemy = "^2.0.37"
 requests = "^2.32.3"
 scrapy = "^2.12.0"
+scrapyscript = "^1.1.5"
 
 [build-system]
 requires = ["poetry-core"]

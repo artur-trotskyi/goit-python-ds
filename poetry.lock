@@ -58,6 +58,18 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
+name = "billiard"
+version = "3.6.4.0"
+description = "Python multiprocessing fork with improvements and bugfixes"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "billiard-3.6.4.0-py3-none-any.whl", hash = "sha256:87103ea78fa6ab4d5c751c4909bcff74617d985de7fa8b672cf8618afd5a875b"},
+    {file = "billiard-3.6.4.0.tar.gz", hash = "sha256:299de5a8da28a783d51b197d496bef4f1595dd023a93a4f59dde1886ae905547"},
+]
+
+[[package]]
 name = "certifi"
 version = "2024.12.14"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -1034,6 +1046,22 @@ w3lib = ">=1.17.0"
 "zope.interface" = ">=5.1.0"
 
 [[package]]
+name = "scrapyscript"
+version = "1.1.5"
+description = "Run a Scrapy spider programmatically from a script or a Celery task - no project required."
+optional = false
+python-versions = ">=3.8,<4.0"
+groups = ["main"]
+files = [
+    {file = "scrapyscript-1.1.5-py3-none-any.whl", hash = "sha256:066762a40a76997afc2fbd1e92f205e4f982080b4392b736453bfa9b645b1f4a"},
+    {file = "scrapyscript-1.1.5.tar.gz", hash = "sha256:1fb8f9edc81d83a0115eca4c57aa5f8f007c96a62ce7ceb5c01872e38955747e"},
+]
+
+[package.dependencies]
+billiard = ">=3.6,<4.0"
+Scrapy = ">=2.5.1,<3.0.0"
+
+[[package]]
 name = "service-identity"
 version = "24.2.0"
 description = "Service identity verification for pyOpenSSL & cryptography."
@@ -1357,4 +1385,4 @@ testing = ["coverage[toml]", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.1"
 python-versions = "3.12.8"
-content-hash = "d104d6994f0b1c7a96dee36ab58396183642bb6d55101e44be750b6df8c97f17"
+content-hash = "963f49a3ea217fb472f04936d552851bd00c07262f79e88e13c02ee48674638b"
