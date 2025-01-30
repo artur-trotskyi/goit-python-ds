@@ -1,9 +1,5 @@
 # GoIT, Homework #3
 
-## Опис
-
-Це додаток для управління задачами, виконаний в рамках домашнього завдання GoIT, Homework #3.
-
 ## Вимоги
 
 - Docker
@@ -36,7 +32,10 @@
    Тепер ви можете запустити додаток із папки app:
 
    ```bash
+   cp mongo_homework/.env.example mongo_homework/.env
+   заповнити mongo_homework/.env
    python3 mongo_homework/main.py
+   python3 scraper/main.py
 
 ## Примітки
 
